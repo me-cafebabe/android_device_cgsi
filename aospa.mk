@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+CGSI_CUSTOM_ROM_NAME := AOSPA
+CGSI_CUSTOM_ROM_BRANCH := calcite
+
 # Import cgsi product variables
 include device/cgsi/import_product_vars.mk
 

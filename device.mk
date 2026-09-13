@@ -15,6 +15,7 @@
 #
 
 DEVICE_PATH := device/cgsi
+-include $(DEVICE_PATH)/custom_build_id.mk
 $(call soong_config_set_bool,cgsi,enabled,true)
 
 # Audio - utilities

@@ -1,3 +1,5 @@
+USES_DEVICE_CGSI := true
+
 # Architecture
 ifeq ($(CGSI_ARCH),arm64)
 TARGET_ARCH := arm64
