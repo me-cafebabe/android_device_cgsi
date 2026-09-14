@@ -1,7 +1,7 @@
 _cgsi_archs := arm64 x86_64
 _cgsi_device_types := phone tablet
 
-_cgsi_custom_roms := aospa
+_cgsi_custom_roms := aospa lineage
 
 $(foreach custom_rom,$(_cgsi_custom_roms),\
     $(foreach arch,$(_cgsi_archs),\
